@@ -1,0 +1,16 @@
+<div class="container">
+<h1>All flats</h1>
+  <% @flats.each do |flat| %>
+    <div class="card">
+      <h2 class="card-title"> <%= flat.name %> </h2>
+      <p class="card-text"> <%= flat.address %> </p>
+      <p class="card-text"> <%= flat.description %> </p>  
+      <div class= "more-info">
+        <%= link_to "More info", flat_path(flat) %>
+      </div>
+    </div>
+  <% end %>
+  <div class="add-new">
+    <%= link_to "add new flat", new_flat_path %>
+  </div>
+</div>

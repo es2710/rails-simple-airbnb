@@ -1,0 +1,25 @@
+.card {
+  width: 250px;
+
+  // border: 1px solid grey;
+}
+
+.card p {
+  font-size: 12px;
+  color: grey;
+  font-weight: lighter;
+  padding: 0px 10px 0px 10px;
+}
+
+.card h2 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.more-info {
+  background-color: #ECEFEF;
+  width: 248px;
+  border: none;
+  padding: 10px;
+}
